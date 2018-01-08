@@ -117,6 +117,10 @@ a {
 }
 
 .largest {
+    font-size: 40px;
+}
+
+.vert-large {
     font-size: 24px;
 }
 
@@ -140,4 +144,11 @@ a {
     font-size: 10px;
 }
 
+.title-bar {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+}
 
