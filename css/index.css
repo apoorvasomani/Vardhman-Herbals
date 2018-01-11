@@ -161,7 +161,7 @@ a {
 .body {
     position: relative;
     width: 100%;
-    font: 400 18px/1.2 'Merienda One', Helvetica, sans-serif;
+    font: 400 18px/1.2 'Arial Black', Helvetica, sans-serif;
     color: rgba(0,0,0,0.7);
     text-shadow: 3px 3px 3px #fff;
     margin: 20px 20px 20px 20px;
@@ -172,12 +172,13 @@ a {
 }
 
 .footer {
+    bgcolor: red;
     position: relative;
     width: 100%;
-    font: 400 18px/1.2 'Merienda One', Helvetica, sans-serif;
+    font: 400 18px/1.2 'Palatino', Helvetica, arial black;
     color: rgba(0,0,0,0.7);
     text-shadow: 3px 3px 3px #fff;
-    margin: 0px 0px 30px 0px;
+    margin: 2px 2px 30px 2px;
 }
 
 
