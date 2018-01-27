@@ -152,7 +152,7 @@ a {
     border-bottom: 1px solid rgba(217, 217, 217, 0.5);
     width: 100%;
     height: 70px;
-    font: 400 40px/1.5 'Pacifico', Helvetica, sans-serif;
+    font: 400 40px/1.5 'Orbitron', Helvetica, sans-serif;
     color: rgba(255, 255, 255, 0.7);
     text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.1), 7px 7px 0px rgba(255, 255, 255,0.05);
 }
@@ -160,7 +160,7 @@ a {
 .body {
     position: relative;
     width: 100%;
-    font: 400 18px/1.2 'Merienda One', Helvetica, sans-serif;
+    font: 400 18px/1.2 'Montesserat', sans-serif;
     color: rgba(0,0,0,0.7);
     text-shadow: 3px 3px 3px #fff;
     margin: 0px;
