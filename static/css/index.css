@@ -192,7 +192,7 @@ a {
 }
 
 .dark-blue {
-    background: #1baab1;
+    background: rgba(58, 140, 177);
 }
 
 .blue {
@@ -204,7 +204,7 @@ a {
 }
 
 .lighter-blue {
-    background: #8dd5e6
+    background: rgba(141, 213, 230, 0.5);
 }
 
 .darker-orange {
