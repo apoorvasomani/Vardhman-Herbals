@@ -205,12 +205,14 @@ a {
     text-transform: uppercase;
     width: 100%;
     background: #3a8cb1;
+    padding: 10px 15px;
 }
 
 .item-container {
     margin: 5px 10px;
     width: 100%;
     border: 1px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
 }
 
 .item {
