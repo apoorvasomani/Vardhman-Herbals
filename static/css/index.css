@@ -187,3 +187,45 @@ a {
     width: 90%;
 
 }
+
+/* Color paletter for background */
+
+.darker-blue {
+    background: #047691;
+}
+
+.dark-blue {
+    background: #1b94b1;
+}
+
+.blue {
+    background: #3aa8c2;
+}
+
+.light-blue {
+    background: #5dbdd4;
+}
+
+.lighter-blue {
+    background: #8dd5e6
+}
+
+.darker-orange {
+    background: #ea7400;
+}
+
+.dark-orange {
+    background: #ff8f20;
+}
+
+.orange {
+    background: #ffa246;
+}
+
+.light-orange {
+    background: #ffb56c;
+}
+
+.lighter-orange {
+    background: #ffcc99;
+}
