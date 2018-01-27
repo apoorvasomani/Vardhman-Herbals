@@ -164,6 +164,7 @@ a {
     color: rgba(0,0,0,0.7);
     text-shadow: 3px 3px 3px #fff;
     margin: 0px;
+    padding: 30px 20px;
 }
 
 .no-margin {
@@ -185,44 +186,32 @@ a {
 
 }
 
-/* Color paletter for background */
-
-.darker-blue {
-    background: #047691;
-}
+/* Color palette for background */
 
 .dark-blue {
     background: #3a8cb1;
-}
-
-.blue {
-    background: #3aa8c2;
 }
 
 .light-blue {
     background: #e0f0f6;
 }
 
-.lighter-blue {
-    background: #8dd5e680;
+.item-header {
+    text-align: left;
+    font-size: 14px;
+    height: 20px;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    width: 100%;
 }
 
-.darker-orange {
-    background: #ea7400;
+.item-container {
+    margin: 5px 10px;
+    width: 100%;
 }
 
-.dark-orange {
-    background: #ff8f20;
-}
-
-.orange {
-    background: #ffa246;
-}
-
-.light-orange {
-    background: #ffb56c;
-}
-
-.lighter-orange {
-    background: #ffcc99;
+.item {
+    min-width: 150px;
+    width: 30%;
+    min-height: 150px;
 }
