@@ -172,11 +172,10 @@ a {
 
 .footer {
     position: relative;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    font: 400 18px/1.2 'Merienda One', Helvetica, sans-serif;
-    color: rgba(0,0,0,0.7);
-    text-shadow: 3px 3px 3px #fff;
-    margin: 0px 0px 30px 0px;
+    height: 150px;
 }
 
 .hr {
@@ -229,8 +228,4 @@ a {
 }
 
 .footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
 }
