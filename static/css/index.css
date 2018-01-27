@@ -153,7 +153,6 @@ a {
     width: 100%;
     height: 70px;
     font: 400 40px/1.5 'Pacifico', Helvetica, sans-serif;
-    background: #0f8b69;
     color: rgba(255, 255, 255, 0.7);
     text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.1), 7px 7px 0px rgba(255, 255, 255,0.05);
 }
@@ -165,7 +164,6 @@ a {
     color: rgba(0,0,0,0.7);
     text-shadow: 3px 3px 3px #fff;
     margin: 0px;
-    background: #49ab90;
 }
 
 .no-margin {
@@ -230,6 +228,9 @@ a {
     background: #ffcc99;
 }
 
-.google-map-link {
-    
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    widdth: 100%;
 }
