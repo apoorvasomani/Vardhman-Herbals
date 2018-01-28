@@ -3,7 +3,7 @@ var initMap = function(){
 
 	var map = new google.maps.Map(
 		document.getElementById('google-map'), {
-			zoom: 12,
+			zoom: 18,
 			center: location,
 		}
 	);
