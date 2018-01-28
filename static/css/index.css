@@ -239,7 +239,8 @@ img {
     bottom: 0;
     left: 0;
     height: 200px;
-    font-color: #fff;
+    color: #fff;
+    background: #4a4a4a;
 }
 
 .hr {
