@@ -1,7 +1,21 @@
 /* Common Styling Class */
 
+html {
+    min-height: 100%
+}
+
+body {
+    min-height: 100%;
+}
+
 a {
     cursor: pointer;
+}
+
+img {
+    border: 1px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
 }
 
 .clear {
@@ -218,12 +232,6 @@ a {
     min-width: 150px;
     min-height: 250px;
     border: 1px rgba(0, 0, 0, 0.5);
-}
-
-img {
-    border: 1px rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
 }
 
 .google-map-link {
