@@ -209,10 +209,9 @@ a {
     border: 1px rgba(0, 0, 0, 0.5);
     padding: 10px 15px;
     display: grid;
-    background: #e0e7f6;
+    background-color: #e0e7f6;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    background-color: #fff;
 }
 
 .item {
