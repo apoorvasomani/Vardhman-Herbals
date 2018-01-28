@@ -35,7 +35,7 @@ img {
 }
 
 .upper {
-    text-transform: : uppercase;
+    text-transform: uppercase;
 }
 
 .no-border {
@@ -303,5 +303,5 @@ img {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     padding: 30px;
-    line-height: 10px;
+    line-height: 25px;
 }
