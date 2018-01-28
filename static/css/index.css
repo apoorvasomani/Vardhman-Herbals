@@ -306,3 +306,9 @@ img {
     padding: 30px;
     line-height: 25px;
 }
+
+@media only screen and (max-device-width: 960px) {
+    .footer {
+        position: absolute;
+    }
+}
