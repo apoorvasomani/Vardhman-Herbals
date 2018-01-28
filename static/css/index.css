@@ -172,7 +172,7 @@ a {
     position: relative;
     bottom: 0;
     left: 0;
-    height: 150px;
+    height: 200px;
 }
 
 .hr {
@@ -228,7 +228,7 @@ img {
 
 .google-map-link {
     float: right;
-    width: 50%;
-    height: 100%;
-    padding: 10px;
+    width: 180px;
+    margin: 10px;
+    height: 180px;
 }
