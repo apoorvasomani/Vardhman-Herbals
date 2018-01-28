@@ -34,6 +34,10 @@ img {
     text-transform: lowercase;
 }
 
+.upper {
+    text-transform: : uppercase;
+}
+
 .no-border {
     border: none;
 }
@@ -182,6 +186,54 @@ img {
     margin: 0px;
 }
 
+.standard-margin {
+    margin: 30px;
+}
+
+.standard-margin-bottom {
+    margin-bottom: 30px;
+}
+
+.standard-margin-left {
+    margin-left: 30px;
+}
+
+.standard-margin-right {
+    margin-right: 30px;
+}
+
+.medium-margin {
+    margin: 20px;
+}
+
+.medium-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.medium-margin-left {
+    margin-left: 20px;
+}
+
+.medium-margin-right {
+    margin-right: 20px;
+}
+
+.less-margin {
+    margin: 10px;
+}
+
+.less-margin-bottom {
+    margin-bottom: 10px;
+}
+
+.less-margin-left {
+    margin-left: 10px;
+}
+
+.less-margin-right {
+    margin-right: 10px;
+}
+
 .footer {
     position: relative;
     bottom: 0;
@@ -249,7 +301,7 @@ img {
     width: 50%;
     font-size: 16px;
     color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 30px;
     line-height: 50px;
 }
