@@ -228,7 +228,9 @@ img {
 
 .google-map-link {
     float: right;
-    width: 180px;
+    width: 250px;
     margin: 10px;
     height: 180px;
+    border: 1px solid #65595973;
+    border-radius: 3px;
 }
