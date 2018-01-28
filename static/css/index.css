@@ -196,12 +196,12 @@ a {
     text-align: left;
     font-size: 14px;
     height: 20px;
-    font-weight: 400;
+    font-weight: 700;
     margin: 5px 10px;
     text-transform: uppercase;
     background: #3a8cb1;
     padding: 10px 15px;
-    font-color: #fff;
+    color: #fff;
 }
 
 .item-container {
