@@ -13,3 +13,4 @@ var initMap = function(){
 		map: map,
 	});
 }
+
