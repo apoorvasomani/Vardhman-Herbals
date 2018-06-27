@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vardhman Products</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="C:\Users\anway\OneDrive\Documents\GitHub\apoorvasomani.github.io\static\css\products.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="title-bar largest align-center align-middle dark-blue bold">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <div class="less-padding" style="align-content: left"> Vardhman Herbals</div>
+    </div>
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+        <ul class="nav navbar-nav">
+            <li><a href="C:\Users\anway\OneDrive\Documents\GitHub\apoorvasomani.github.io\index.html">Home</a></li>
+            <li class="active" ><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="C:\Users\anway\OneDrive\Documents\GitHub\apoorvasomani.github.io\Pages\Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button class="accordion">Gels</button>
+	<div class="panel">
+  		<div class="single-item"><img src="After Waxing Gel.jpg">After Waxing Gel</div>
+  		<div class="single-item"><img src="Aloevera Gel.jpg">Aloevera Gel</div>
+  		<div class="single-item"><img src="Pigmentation Gel.jpg">Pigmentation Gel</div>
+  		<div class="single-item"><img src="Pimple Gel.jpg">Pimple Gel</div>
+  		<div class="single-item"><img src="Threading Gel.jpg">Threading Gel</div>
+  		<div class="single-item"><img src="Under Eye Gel.jpg">Under Eye Gel</div>
+	</div>
+
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+ 		acc[i].addEventListener("click", function() {
+    		this.classList.toggle("active");
+    		var panel = this.nextElementSibling;
+    		if (panel.style.maxHeight){
+      			panel.style.maxHeight = null;
+    		} else {
+      			panel.style.maxHeight = panel.scrollHeight + "px";
+    		} 
+  		});
+	}
+	</script>
+
+</body>
+</html>
