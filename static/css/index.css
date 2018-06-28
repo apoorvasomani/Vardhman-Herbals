@@ -6,6 +6,7 @@ html {
 
 body {
     min-height: 100%;
+    background-color: #adff2f;
 }
 
 a {
@@ -13,10 +14,8 @@ a {
 }
 
 img {
-    border: 5px rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    padding: 5%;
+    width: 190px;
+    height: 190px;
 }
 
 .underline--new{
@@ -547,3 +546,13 @@ img {
   .affix + .container-fluid {
       padding-top: 70px;
   }
+
+.top-head {
+    font: 50px bold Arial Black, Verdana, Sans-Serif;
+    font-weight: 70%;
+    background-color: #fa8072
+}
+
+pre {
+    background-color: #adff2f;   
+}

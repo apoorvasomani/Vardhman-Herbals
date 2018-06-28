@@ -38,15 +38,18 @@
 <!-- Google Verification Tag -->
 <meta name="google-site-verification" content="SW_jsJ3ghPA3cfFh62N7q-hOBKX-13geRNYlCXmf8rw" />
 
+<!--W3 Css-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 
 <body class="no-margin light-blue">
 
-    <div class="title-bar largest align-center align-middle dark-blue bold">
+    <div class="top-head">
         <link rel="shortcut icon" href="favicon.ico" />
-        <div class="less-padding" style="align-content: left"> Vardhman Herbals</div>
+        <pre><h1><u>Vardhman Herbals</u></h1><img src="Logo.jpg"></pre>
     </div>
+
 
     <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
         <ul class="nav navbar-nav">
@@ -56,6 +59,36 @@
             <li><a href="C:\Users\anway\OneDrive\Documents\GitHub\apoorvasomani.github.io\Pages\Contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="noternate.JPG" style="width:100%">
+        <img class="mySlides" src="Logo.jpg" style="width:100%">
+        <img class="mySlides" src="chota logo.jpg" style="width:100%">
+        
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+
 
     <div class="body light-blue">
 
