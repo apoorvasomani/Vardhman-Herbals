@@ -1,16 +1,11 @@
-var initMap = function(){
-	var location = {lat: 19.154201, lng: 77.310530};
 
-	var map = new google.maps.Map(
-		document.getElementById('google-map'), {
-			zoom: 18,
-			center: location,
+	$(document).on("scroll", function(){
+		if
+      ($(document).scrollTop() > 86){
+		  $("#banner").addClass("shrink");
 		}
-	);
-
-	var marker = new google.maps.Marker({
-		position: location,
-		map: map,
+		else
+		{
+			$("#banner").removeClass("shrink");
+		}
 	});
-}
-
