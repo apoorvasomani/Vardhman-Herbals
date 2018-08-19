@@ -57,6 +57,9 @@ img{
     background-color: yellow;
     font: 30px Bold;
     font-family: 'Lobster', cursive;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
 }
 
 img {
@@ -76,4 +79,16 @@ p {
 .content {
     margin: 0px -10px 0px -10px;
     padding: 0px;
+}
+
+.largest {
+    background-color: red;
+    font: 30px Bold Tahoma, Arial, Serif;
+}
+
+.fixedHeader {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
 }
