@@ -2,54 +2,76 @@
 .body{
   font-family: 'Gothic A1', sans-serif;
   font-size:16px;
-  }
-  p{
-  color:#6c6c6f;
-  font-size:1em;
-  }
-  h1,h2,h3,h4,h5,h6{color:#323233;text-transform:uppercase;}
+}
+
+body {
+    background-color: black;
+}
+p{
+    color:#6c6c6f;
+    font-size:1em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#323233;
+    text-transform:uppercase;
+}
+
 .navbar-brand  span{
-  color: #fed136;
-  font-size:25px;font-weight:700;letter-spacing:0.1em;
+    color: #fed136;
+    font-size:25px;font-weight:700;letter-spacing:0.1em;
     font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
 }
+
 .navbar-brand {
-  color: #fff;
-  font-size:25px;
+    color: #fff;
+    font-size:25px;
     font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
-  font-weight:700;
-  letter-spacing:0.1em;
+    font-weight:700;
+    letter-spacing:0.1em;
 }
 
 .navbar-nav .nav-item .nav-link{
-  padding: 1.1em 1em!important;
-  font-size: 120%;
+    padding: 1.1em 1em!important;
+    font-size: 120%;
     font-weight: 500;
     letter-spacing: 1px;
     color: #fff;
-   font-family: 'Gothic A1', sans-serif;
+    font-family: 'Gothic A1', sans-serif;
 }
-.navbar-nav .nav-item .nav-link:hover{color:#fed136;}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color:#fed136;
+}
+
 .navbar-expand-md .navbar-nav .dropdown-menu{
   border-top:3px solid #fed136;
 }
-.dropdown-item:hover{background-color:#fed136;color:#fff;}
-nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+
+.dropdown-item:hover { 
+    background-color:#fed136;
+    color:#fff;
+}
+
+nav {
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
     -moz-transition: padding-top .3s,padding-bottom .3s;
     transition: padding-top .3s,padding-bottom .3s;
     border: none;
-  }
+}
   
- .shrink {
+.shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #212529;
 }
-.banner{
-  background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
-  text-align: center;
+
+.banner{  
     color: #fff;
-   
+    align-items: left;
+    width: 700px;
+    height: 1000px;
+    background-image: url("../images/poonam_biyani.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -58,42 +80,50 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     -o-background-size: cover;
     background-size: cover;
 }
-.banner-text{
-  padding:200px 0 150px 0;
+
+.whole {
+    float: left;
 }
-.banner-heading{
-  font-family: 'Lobster', cursive;
-  font-size: 75px;
+
+.banner-text {
+    float: right;
+    padding:200px 0 150px 0;
+}
+
+.banner-heading {
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
     font-weight: 700;
     line-height: 100px;
     margin-bottom: 30px;
-  color:#fff;
+    color:#fff;
 }
+
 .banner-sub-heading{
-  font-family: 'Libre Baskerville', serif;
-  font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
     font-weight: 300;
     line-height: 30px;
     margin-bottom: 50px;
-  color:#fff;
+    color:#fff;
 }
 
-.btn-banner{
-  padding:5px 20px;
-  border-radius:10px;
-  font-weight:700;
-  line-height:1.5;
-  text-align:center;
-  color:#fff;
-  text-transform:uppercase;
+.btn-banner {
+    padding:5px 20px;
+    border-radius:10px;
+    font-weight:700;
+    line-height:1.5;
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
 }
+
 .text-intro{
-  width:90%;
-  margin:auto;
-  text-align:center;
-  padding-top:30px;
+    width:50%;
+    margin:auto;
+    text-align:center;
+    padding-top:30px;
 }
-
 
 /* mobile view */
 @media (max-width:500px)
