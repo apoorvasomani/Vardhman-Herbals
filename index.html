@@ -1,118 +1,48 @@
+<!DOCTYPE html>
 <html>
-
-<title>Vardhaman Herbals</title>
-
 <head>
-`
-<!-- Google Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113145627-1"></script>
-<script src="static/js/gtag.js?v=0.0.1" type="text/javascript"></script>
+    <title>Vardhman Herbals</title>
 
-<!--Bootstrap usage for non-movable nav bar -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!--Bootstrap end-->
+     <!-- Local CSS(BS) -->
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
 
+    <!-- Local JS(BS) -->
+    <script src="static/js/index.js"></script>
 
-<!-- Third party CSS -->
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Monteserrat|Orbitron|Roboto' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap for 'Glad To See You Here' -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Custom CSS -->
-<link rel="stylesheet" href="static/css/index.css?v=0.5.0"  type="text/css"/>
-
-<!-- Google Verification Tag -->
-<meta name="google-site-verification" content="SW_jsJ3ghPA3cfFh62N7q-hOBKX-13geRNYlCXmf8rw" />
-    
-<!--W3 Css-->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 
-<body class="no-margin light-blue">
+<body>
 
-    <div class="top-head">
-        <link rel="shortcut icon" href="favicon.ico" />
-        <pre><h1><u>Vardhman Herbals</u></h1><img src="Logo.jpg"></pre>
+<div class="banner">
+    <div class="container">
+    <div class="banner-text">
+    <div class="banner-heading">
+    Glad to see you here !
     </div>
-
-
-    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="Pages\Products.html">Products</a></li>
-            <li><a href="Pages\About.html">About</a></li>
-            <li><a href="Pages\Contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="w3-content w3-display-container">
-        <img class="mySlides" src="Logo.jpg" style="width:100%">
-        <img class="mySlides" src="Logo.jpg" style="width:100%">
-        <img class="mySlides" src="Logo.jpg" style="width:100%">
-        
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    <div class="banner-sub-heading">
+    Here goes the secondary heading on hero banner
     </div>
+    <button type="button" class="btn btn-warning text-dark btn-banner">Get started</button>
+    <button type="button" class="btn btn-warning text-dark btn-banner">Get started</button>
 
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-        }
-        x[slideIndex-1].style.display = "block";  
-        }
-    </script>
-
-
-    <div class="body light-blue">
-
-    <div class="footer">
-
-            <div class="address-info">
-                <div class="inline-block upper larger bold">
-                    <u>Contact Information</u>
-                </div>
-
-                <div class="address">
-                    <span class="float-left clear">Vardhman Herbals</span>
-                    <span class="float-left clear">Vikas Nagar, Koutha</span>
-                    <span class="float-left clear">Nanded</span>
-                </div>
-
-                <span class="phone-no float-left clear">
-                    <i class="fa fa-phone fa-white less-margin-right"></i>
-                    9422550070
-                </span>
-            </div>
-
-            <div id="google-map" class="google-map-link"></div>
-        </div>
     </div>
+    </div>
+</div>
+<section id="about">
+<div class="container">
+    <div class="text-intro">
+    <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+    </div>
+</div>
+</section>
 
-<!-- External Javascript Includes -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-
-<!-- Internal Javascript Includes -->
-<script src="static/js/index.js?v=0.0.2" type="text/javascript"></script>
-
-<!-- External Javascript that are dependent on internal JS -->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHWngEstA0bfsbsSGanBg6xE7KOKOGf5M&callback=initMap"></script>
 
 </body>
-
 </html>
