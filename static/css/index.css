@@ -81,13 +81,25 @@ nav {
     background-size: cover;
 }
 
+button {
+  background-color: blue;
+  cursor: pointer;
+}
+
+button
+
 .whole {
     float: left;
 }
 
 .banner-text {
     float: right;
-    padding:200px 0 150px 0;
+    padding:2px 0 1px 0;
+}
+
+.container {
+  width: 100%;
+  height: 10%;
 }
 
 .banner-heading {
@@ -106,6 +118,10 @@ nav {
     line-height: 30px;
     margin-bottom: 50px;
     color:#fff;
+}
+
+#about {
+  float: left;
 }
 
 .btn-banner {
