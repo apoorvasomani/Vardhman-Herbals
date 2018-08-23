@@ -41,9 +41,11 @@ img{
 }
 
 .row {
-    width: auto;
+    width: 90%;
     height: auto;
     background-image: url("../images/productbg.jpg");
+    box-shadow: 10px 10px;
+    align-self: center;
 }
 
 .col-sm-2 {
@@ -115,5 +117,5 @@ p {
       background-color: #fffafa;
       text-align: center;
       padding: 10px;
-      position: sticky;
+      /*position: sticky;*/
     }
