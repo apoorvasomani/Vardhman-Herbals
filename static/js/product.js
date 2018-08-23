@@ -63,5 +63,5 @@ var stickyHeaders = (function() {
 })();
 
 $(function() {
-  stickyHeaders.load($(".followbar"), $(window), 100);
+  stickyHeaders.load($(".main-leg"), $(window), 100);
 });

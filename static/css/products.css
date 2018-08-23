@@ -43,6 +43,7 @@ img{
 .row {
     width: auto;
     height: auto;
+    background-image: url("../images/productbg.jpg");
 }
 
 .col-sm-2 {
