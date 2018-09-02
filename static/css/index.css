@@ -182,12 +182,12 @@ button {
 @media (max-width:768px){
   .banner-text{
   padding:150px 0 150px 0;
-}
+  }
   .banner-sub-heading{
   font-size: 23px;
     font-weight: 200;
     line-height: 23px;
     margin-bottom: 40px;
-}
+  }
 }
  
