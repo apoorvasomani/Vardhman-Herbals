@@ -66,7 +66,7 @@ img{
     font: 30px Bold;
     font-family: 'Lobster', cursive;
     padding: 10px 20px;
-    position: relative;
+    position: ;
     z-index: 0;
     width: 100%;
     margin: 0px;
@@ -127,10 +127,14 @@ p {
 
     .header {
       font: 50px Bold Tahoma, Helvetica, Serif;
-      background-color: #fffafa;
+      /*background-color: #fffafa;*/
       text-align: center;
       padding: 10px;
       /*position: sticky;*/
+      background: #CAC531;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     }
 
 body {
@@ -139,13 +143,17 @@ body {
     margin: 0px;
     padding: 0px;
 
-    background-image: url("../images/prodbg.jpg");
+    /*background-image: url("../images/prodbg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+   background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
