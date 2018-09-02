@@ -5,88 +5,88 @@
 }
 
 body {
-    background-image: url("../images/background1.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-p{
-    color:#6c6c6f;
-    font-size:1em;
+  background-image: url("../images/background1.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-h1,h2,h3,h4,h5,h6{
-    color:#323233;
-    text-transform:uppercase;
+p {
+  color:#6c6c6f;
+  font-size:1em;
 }
 
-.navbar-brand  span{
-    color: #fed136;
-    font-size:25px;font-weight:700;letter-spacing:0.1em;
-    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+h1,h2,h3,h4,h5,h6 {
+  color:#323233;
+  text-transform:uppercase;
+}
+
+.navbar-brand span {
+  color: #fed136;
+  font-size:25px;font-weight:700;letter-spacing:0.1em;
+  font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
 }
 
 .navbar-brand {
-    color: #fff;
-    font-size:25px;
-    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
-    font-weight:700;
-    letter-spacing:0.1em;
+  color: #fff;
+  font-size:25px;
+  font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+  font-weight:700;
+  letter-spacing:0.1em;
 }
 
 .navbar-nav .nav-item .nav-link{
-    padding: 1.1em 1em!important;
-    font-size: 120%;
-    font-weight: 500;
-    letter-spacing: 1px;
-    color: #fff;
-    font-family: 'Gothic A1', sans-serif;
+  padding: 1.1em 1em!important;
+  font-size: 120%;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: 'Gothic A1', sans-serif;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color:#fed136;
+  color:#fed136;
 }
 
-.navbar-expand-md .navbar-nav .dropdown-menu{
+.navbar-expand-md .navbar-nav .dropdown-menu {
   border-top:3px solid #fed136;
 }
 
 .dropdown-item:hover { 
-    background-color:#fed136;
-    color:#fff;
+  background-color:#fed136;
+  color:#fff;
 }
 
 nav {
-    -webkit-transition: padding-top .3s,padding-bottom .3s;
-    -moz-transition: padding-top .3s,padding-bottom .3s;
-    transition: padding-top .3s,padding-bottom .3s;
-    border: none;
+  -webkit-transition: padding-top .3s,padding-bottom .3s;
+  -moz-transition: padding-top .3s,padding-bottom .3s;
+  transition: padding-top .3s,padding-bottom .3s;
+  border: none;
 }
   
 .shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #212529;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #212529;
 }
 
 .banner{  
-    color: #fff;
-    align-items: left;
-    width: 700px;
-    height: 1000px;
-    background-image: url("../images/.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  color: #fff;
+  align-items: left;
+  width: 700px;
+  height: 1000px;
+  background-image: url("../images/.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 button {
@@ -95,12 +95,12 @@ button {
 }
 
 .whole {
-    float: left;
+  float: left;
 }
 
 .banner-text {
-    float: right;
-    padding:2px 0 1px 0;
+  float: right;
+  padding:2px 0 1px 0;
 }
 
 .container {
@@ -109,21 +109,21 @@ button {
 }
 
 .banner-heading {
-    font-family: 'Lobster', cursive;
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 100px;
-    margin-bottom: 30px;
-    color:#fff;
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-bottom: 30px;
+  color:#fff;
 }
 
 .banner-sub-heading{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 50px;
-    color:#fff;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 50px;
+  color:#fff;
 }
 
 #about {
@@ -131,20 +131,20 @@ button {
 }
 
 .btn-banner {
-    padding:5px 20px;
-    border-radius:10px;
-    font-weight:700;
-    line-height:1.5;
-    text-align:center;
-    color:#fff;
-    text-transform:uppercase;
+  padding:5px 20px;
+  border-radius:10px;
+  font-weight:700;
+  line-height:1.5;
+  text-align:center;
+  color:#fff;
+  text-transform:uppercase;
 }
 
 .text-intro{
-    width:50%;
-    margin:auto;
-    text-align:center;
-    padding-top:30px;
+  width:50%;
+  margin:auto;
+  text-align:center;
+  padding-top:30px;
 }
 
 /* mobile view */
