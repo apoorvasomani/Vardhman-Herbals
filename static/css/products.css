@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .accordion {
     background-color: #1B6EC5;
     color: #444;
