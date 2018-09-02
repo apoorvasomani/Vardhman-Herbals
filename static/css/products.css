@@ -41,7 +41,7 @@ img{
 }
 
 .row {
-    width: 90%;
+    width: 100%;
     height: auto;
     background-image: url("../images/productbg.jpg");
     box-shadow: 10px 10px;
@@ -58,11 +58,12 @@ img{
 
 .main-leg {
     background-color: yellow;
+    text-align: right;
     font: 30px Bold;
     font-family: 'Lobster', cursive;
     padding: 10px 20px;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 img {
@@ -103,7 +104,9 @@ p {
     }
     
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
+    .row.content {
+        height: 450px
+    }
     
     /* Set gray background color and 100% height */
     .sidenav {
