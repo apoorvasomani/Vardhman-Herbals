@@ -1,5 +1,5 @@
 .accordion {
-    background-color: #eee;
+    background-color: #1B6EC5;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -134,4 +134,14 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+
+    background-image: url("../images/prodbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
