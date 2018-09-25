@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+.accordion {
+    background-color: #1B6EC5;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 25%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    background-image: url("../images/productbg.jpg");
+    align-self: center;
+}
+
+.col-sm-2 {
+    background-color: #E8E8E8;
+    margin: 30px;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+.main-leg {
+    background-color: yellow;
+    text-align: right;
+    font: 30px Bold;
+    font-family: 'Lobster', cursive;
+    padding: 10px 20px;
+    position: ;
+    z-index: 0;
+    width: 100%;
+    margin: 0px;
+}
+
+legend {
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    height: 20%;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    background-color: #F8F8F8;
+    text-align: center;
+    font: 18px Bold;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.content {
+    margin: 0px -10px 0px -10px;
+    padding: 0px;
+}
+
+.largest {
+    background-color: red;
+    font: 30px Bold Tahoma, Arial, Serif;
+}
+
+.fixedHeader {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+        height: 450px
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    .header {
+      font: 50px Bold Tahoma, Helvetica, Serif;
+      /*background-color: #fffafa;*/
+      text-align: center;
+      padding: 10px;
+      /*position: sticky;*/
+      background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    }
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    /*background-image: url("../images/prodbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+   background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
