@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+        <script type="text/javascript" src="people.json"></script>
+             <script type="text/javascript" >
+                function load() {
+                     var mydata = JSON.parse(data);
+
+                     var div = document.getElementById('data');
+
+                     for(var i = 0;i < mydata.length; i++)
+                     {
+                        // div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ mydata[i].name + mydata[i].lastName +"</p>" + "<br>";
+                        div.innerHTML = div.innerHTML + "<tr class='blockchain'>" + "<td>" + mydata[i].name + "</td>" + "<td>" + mydata[i].lastName + "</td>" + "</tr>";
+                     }
+                 }
+        </script>
+
+        <style type="text/css">
+          .blockchain {
+            background-color: green;
+          }
+        </style>
+    </head>
+    <body  onload="load()">
+    <div>
+      I only enter text here <br><br><br>
+    </div>
+    <table border="2">
+      <thead>
+        <th>Name</th>
+        <th>Last Name</th>
+      </thead>
+      <tbody id="data">
+      </tbody>
+    </table>
+    </body>
+</html>

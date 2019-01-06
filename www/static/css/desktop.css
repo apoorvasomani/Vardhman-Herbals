@@ -1,0 +1,102 @@
+@media (min-width: 1020px) {
+	html {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	body {
+		margin: 0;
+		background-image: url('img/background.png');
+	}
+
+	.laptop {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Blocking view for mobile and tablet */
+	.mobile, .tablet {
+		display: none;
+	}
+
+	.navBar {
+		width: 100%;
+		height: 8%;
+		padding: 4px 0;
+	}
+
+	.logo, .brandName, .furtherLinks {
+		position: relative;
+		float: left;
+	}
+
+	/* Styling logo */
+	.logo {
+		left: 0;
+		margin-right: 3%;
+		border: 1px solid black;
+		height: 100%;
+		width: 10%;
+	}
+
+	.logoImage {
+		width: 100%;
+		height: 100%;
+	}
+
+	/* Styling brand name */
+	.brandName {
+		margin-right: 15%;
+		font: 30px Bold;
+		font-family: 'Courgette', cursive;
+		color: #ffffff;
+	}
+
+	/* Styling furtherLinks */
+	.furtherLinks {
+
+	}
+
+	/* Links from furtherLinks(same-page direction) */
+	.linkOne {
+		background-color: grey;
+		color: #F7FF00;
+		font: 25px Bold;
+		font-family: 'Work Sans', sans-serif;
+		padding: 5px;
+		margin: 5px;
+	}
+
+	/* Changing on hover */
+	.linkOne:hover {
+		border-left: 3px solid orange;
+		background-color: green;
+	}
+
+	/* Configuring container element */
+	.container {
+		padding: 0;
+	}
+
+	.carousel {
+		position: inherit;
+	}
+
+	.carousel-control {
+		height: 420px;
+	}
+
+	.item {
+		height: 400px;
+		position: relative;
+		border: 2px solid black;
+	}
+
+	/* Over-carousel text color */
+	.darkText {
+		color: #FFB200;
+		font: 25px Bold;
+		font-family: 'Pacifico', cursive;
+	}
+
+}

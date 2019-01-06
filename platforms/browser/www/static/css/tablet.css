@@ -1,0 +1,11 @@
+@media (min-width: 800px) {
+	html {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Blcoking view for mobile and desktop */
+	.mobile, .desktop {
+		display: none;
+	}
+}
