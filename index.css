@@ -189,6 +189,7 @@ body {
     margin-top: 0px;
     background-color: orange;
     margin-bottom: 10%;
-    padding: 5%;
-    font: 50px Bold solid;
+    padding: 3%;
+    font: 40px Bold;
+    font-family: 'Staatliches', cursive;
 }
