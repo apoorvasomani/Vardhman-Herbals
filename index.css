@@ -193,3 +193,20 @@ body {
     font: 40px Bold;
     font-family: 'Staatliches', cursive;
 }
+
+.product-title-text {
+    position: inherit; 
+    float: left; 
+    font-size: 50px; 
+    background-color: green; 
+    border: 2px solid black;
+}
+
+.product-description {
+    position: inherit; 
+    float: left; 
+    font-size: 25px;
+    color: black; 
+    background-color: green; 
+    border: 2px solid black;
+}
